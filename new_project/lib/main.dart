@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:new_project/add_task.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    home: AddTask(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
