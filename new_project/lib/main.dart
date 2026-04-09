@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:new_project/add_task.dart';
 
 void main() {
-  runApp(const AddTask());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
