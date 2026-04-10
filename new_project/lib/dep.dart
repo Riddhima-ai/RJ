@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// MODEL CLASS
+
 class Department {
   final String name;
   final String hod;
@@ -15,7 +15,7 @@ class Department {
   });
 }
 
-/// PAGE 1: DEPARTMENT LIST
+
 class DepartmentListPage extends StatelessWidget {
   DepartmentListPage({super.key});
 
@@ -59,7 +59,7 @@ class DepartmentListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[50], // light lavender background
+      backgroundColor: Colors.deepPurple[50], 
       appBar: AppBar(
         title: const Text("Departments"),
         centerTitle: true,
