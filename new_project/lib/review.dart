@@ -85,8 +85,10 @@ class _ReviewPageState extends State<ReviewPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
         title: const Text("Professor Reviews"),
+        backgroundColor:  Colors.deepPurple[300],
       ),
       body: reviews.isEmpty
           ? const Center(child: Text("No reviews yet"))

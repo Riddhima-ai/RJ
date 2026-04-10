@@ -15,8 +15,9 @@ class Facilityinfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.deepPurple[300],
         title: Text(
           name,
           style: const TextStyle(color: Colors.white),

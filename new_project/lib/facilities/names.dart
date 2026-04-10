@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:new_project/facilities/facilityInfo.dart';
-class AddTask extends StatelessWidget{
-  const AddTask({super.key});
+class  Facilites extends StatelessWidget{
+  const Facilites({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -33,13 +33,14 @@ class AddTask extends StatelessWidget{
       }
     ];
    return Scaffold(
+    backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Text('Add task',style: TextStyle(
+        backgroundColor: Colors.deepPurple[300],
+        title: Text('Facilites',style: TextStyle(
           color: Colors.white
         ),)
       ),
-      backgroundColor: Colors.white,
+      
       body: Center(
         child: Column(
           children: [
